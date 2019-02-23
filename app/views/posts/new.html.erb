@@ -4,16 +4,18 @@
 <%# submits to our create method %>
   <p>
     <%= f.label :title %> <br>
-    <%= f.text_field :title %>
+    <%= f.text_field :title, :class => 'form-control' %>
   </p>
 
   <p>
     <%= f.label :body %> <br>
-    <%= f.text_area :body %>
+    <%= f.text_area :body, :class => 'form-control' %>
   </p>
 
   <p>
-    <%= f.submit %>
+    <div class="text-right">
+    <%= f.submit :class => 'btn btn-info btn-right' %>
+    </div>
   </p>
 
 <% end %>
