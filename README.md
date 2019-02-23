@@ -1,25 +1,24 @@
-# README
+# rails-crash-course
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+a quick ruby on rails crash course
 
-Things you may want to cover:
+- Ruby version
 
-* Ruby version
+- Rails
 
-* System dependencies
+- Database =
+  sqlite3
 
-* Configuration
+# web application overview
 
-* Database creation
+![UI](public/ui.png)
 
-* Database initialization
+- MVC
 
-* How to run the test suite
+- Post
 
-* Services (job queues, cache servers, search engines, etc.)
+- Comments
 
-* Deployment instructions
+- form_for
 
-* ...
-# rails-crash
+- Bootstrap navbar, buttons, cards
